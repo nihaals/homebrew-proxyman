@@ -13,6 +13,7 @@ cask "proxyman-update" do
   end
 
   auto_updates true
+  conflicts_with cask: "proxyman"
 
   app "Proxyman.app"
 
