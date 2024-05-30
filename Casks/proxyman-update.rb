@@ -17,6 +17,4 @@ cask "proxyman-update" do
 
   app "Proxyman.app"
   binary "#{appdir}/Proxyman.app/Contents/MacOS/proxyman-cli"
-
-  uninstall quit: "com.proxyman.NSProxy"
 end
