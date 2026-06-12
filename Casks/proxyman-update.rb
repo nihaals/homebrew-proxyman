@@ -14,7 +14,7 @@ cask "proxyman-update" do
 
   auto_updates true
   conflicts_with cask: "proxyman"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Proxyman.app"
   binary "#{appdir}/Proxyman.app/Contents/MacOS/proxyman-cli"
